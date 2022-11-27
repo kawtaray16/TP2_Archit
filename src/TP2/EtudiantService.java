@@ -5,12 +5,12 @@ import java.util.ArrayList;
 
 public class EtudiantService implements Etudiant{
 
-	private int matricule;
+	protected int matricule;
     private String nom;
     private String prenom;
     protected String email ;
     private String pwd;
-    private int nbLivreMensuel_Autorise;
+    protected int nbLivreMensuel_Autorise;
     private int nbLivreEmprunte;
     private int id_universite;
     private EtudiantRepository E;
