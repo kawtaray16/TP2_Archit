@@ -1,7 +1,15 @@
 package TP2;
 
-public class Universite {
-	private int i_univ; //identifiant unique de l'université
+import java.sql.SQLException;
+
+public interface Universite {
+	
+	Universite GetById(int universityId) throws SQLException;
+
+	TypePackage getPack();
+	
+	
+	/*private int i_univ;
 	 private String nom;
 	 private TypePackage pack;
 	 
@@ -28,7 +36,7 @@ public class Universite {
 		}
 		public void setPack(TypePackage pack) {
 			this.pack = pack;
-		}
+		}*/
 		 
 	 
 

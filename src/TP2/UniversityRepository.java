@@ -5,9 +5,22 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class UniversityRepository {
+public class UniversityRepository implements Universite{
 
-Universite GetById(int universityId) throws SQLException {
+	private int i_univ;
+	private String nom;
+	private TypePackage pack;
+	
+	
+	public UniversityRepository(int i_univ, String nom, TypePackage pack) {
+		this.i_univ= i_univ;
+		this.nom = nom;
+		this.pack = pack;	
+	}
+
+	
+	
+public Universite GetById(int universityId) throws SQLException {
 		
 		DBConnection BD= new DBConnection();
 		Connection connect=BD.getConn(); 
@@ -18,7 +31,7 @@ Universite GetById(int universityId) throws SQLException {
 		ResultSet rs = stmt.executeQuery(sql);
 		rs.next();	
 		TypePackage p=TypePackage.valueOf(rs.getString(3));
-		Universite u = new Universite (rs.getInt(1),rs.getString(2),p);
+		Universite u = new UniversityRepository (rs.getInt(1),rs.getString(2),p);
 			
 		System.out.println("LogBD : université récupérée");
 		
@@ -26,6 +39,13 @@ Universite GetById(int universityId) throws SQLException {
 		return u;	
 	
 		
-	}	
+	}
+
+
+@Override
+public TypePackage getPack() {
+	// TODO Auto-generated method stub
+	return null;
+}	
 
 }

@@ -5,9 +5,9 @@ public class MainApp {
 		// TODO Auto-generated method stub
 
 
-		EtudiantService serv=new EtudiantService();
+		EtudiantService serv=new EtudiantService(2, "Guendouziiiii", "wassila", "guen@gmail.com","xxxx",1, 0, 0);
 		try {
-			serv.inscription(2, "Guendouziiiii", "wassila", "guen@gmail.com","xxxx",1);
+			serv.inscription(2, "Guendouziiiii", "wassila", "guen@gmail.com","xxxx",1, 0, 0);
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
