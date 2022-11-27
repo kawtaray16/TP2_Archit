@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/ISSER TECH/Downloads/sqljdbc_11.2.0.0_fra (1).zip"/>
+	<classpathentry kind="lib" path="C:/Users/ISSER TECH/Desktop/mssql-jdbc-11.2.0.jre8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ISSER TECH/Desktop/mssql-jdbc-11.2.0.jre11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ISSER TECH/Desktop/mssql-jdbc-11.2.0.jre17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ISSER TECH/Desktop/mssql-jdbc-11.2.0.jre18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ISSER TECH/Downloads/mysql-connector-java-8.0.30.jar" sourcepath="/TP2_Archi"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
