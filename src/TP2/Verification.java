@@ -7,7 +7,10 @@ public class Verification extends EtudiantService{
 		super(matricule, nom, prenom, email, pwd, id_universite, nbLivreMensuel_Autorise, nbLivreEmprunte);
 		// TODO Auto-generated constructor stub
 	}
-	
+	EtudiantRepository StudRep;
+	Universite univ;
+	EtudiantRepository stud;
+	stud = StudRep;
 	
 	private boolean verifier () {
 	 if(email == null || email.length() == 0)
@@ -41,4 +44,4 @@ public class Verification extends EtudiantService{
 		 return true;
 	}
 }
-}
+
