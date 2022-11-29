@@ -1,4 +1,4 @@
-package TP2;
+package DBC;
 
 public class DBConnectionSegleton {
 	

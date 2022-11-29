@@ -1,7 +1,11 @@
-package TP2;
+package EtudiantRep;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
+
+import TP2.TypePackage;
+import UniversityRep.Universite;
+import UniversityRep.UniversityRepository;
 
 public class EtudiantService implements Etudiant{
 
@@ -127,6 +131,36 @@ public void add(EtudiantRepository E) throws SQLException {
 
 @Override
 public void Bonus_livre() {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public void viewInscription() {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public void bonus() {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public void ControleurInscription() {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public void Inscription() {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public void Afficher_tout() {
 	// TODO Auto-generated method stub
 	
 }

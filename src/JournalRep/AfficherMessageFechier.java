@@ -1,4 +1,4 @@
-package TP2;
+package JournalRep;
 
 import java.io.BufferedWriter;
 import java.io.File;

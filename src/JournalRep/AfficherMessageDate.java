@@ -1,4 +1,4 @@
-package TP2;
+package JournalRep;
 
 import java.sql.Date;
 import java.text.DateFormat;

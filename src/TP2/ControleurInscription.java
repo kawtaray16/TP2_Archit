@@ -2,6 +2,9 @@ package TP2;
 
 import javax.swing.JTextField;
 
+import EtudiantRep.Etudiant;
+import EtudiantRep.EtudiantService;
+
 public class ControleurInscription extends ViewInscription{
 
 	//j'ai recuperer les valeurs (Modele)

@@ -1,4 +1,4 @@
-package TP2;
+package JournalRep;
 
 public abstract class Journal {
 

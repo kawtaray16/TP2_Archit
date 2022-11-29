@@ -1,4 +1,4 @@
-package TP2;
+package DBC;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

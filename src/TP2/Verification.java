@@ -1,5 +1,9 @@
 package TP2;
 
+import UniversityRep.Universite;
+import EtudiantRep.EtudiantRepository;
+import EtudiantRep.EtudiantService;
+
 public class Verification extends EtudiantService{
 
 	public Verification(int matricule, String nom, String prenom, String email, String pwd, int id_universite,

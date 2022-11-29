@@ -1,5 +1,11 @@
 package TP2;
 
+import EtudiantRep.EtudiantService;
+import JournalRep.AfficherMessageDate;
+import JournalRep.AfficherMessageDirectement;
+import JournalRep.AfficherMessageFechier;
+import JournalRep.IJournal;
+
 public class MainApp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,9 +1,12 @@
-package TP2;
+package UniversityRep;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
+import DBC.DBConnection;
+import TP2.TypePackage;
 
 public class UniversityRepository implements Universite{
 

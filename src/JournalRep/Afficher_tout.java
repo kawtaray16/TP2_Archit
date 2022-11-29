@@ -1,4 +1,4 @@
-package TP2;
+package JournalRep;
 
 public class Afficher_tout extends Journal{
 

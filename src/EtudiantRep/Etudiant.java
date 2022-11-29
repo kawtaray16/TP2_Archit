@@ -1,4 +1,4 @@
-package TP2;
+package EtudiantRep;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -32,6 +32,16 @@ public interface Etudiant {
 	public void Bonus_livre();
 
 	int Bonus_livre(int n);
+
+	public void viewInscription();
+
+	public void bonus();
+
+	public void ControleurInscription();
+
+	public void Inscription();
+
+	public void Afficher_tout();
 
 
 	

@@ -1,5 +1,9 @@
 package TP2;
 
+import UniversityRep.Universite;
+import EtudiantRep.Etudiant;
+import EtudiantRep.EtudiantService;
+
 public class MainAppMvc {
 
 
@@ -11,7 +15,7 @@ public class MainAppMvc {
 		//Utiliser les fonctions d'affichage les messages avec une seule appel de la class Afficher message tout
 		
 		String message = "Le TP2 d'architecture logicielle";
-		Afficher_tout();
+		E.Afficher_tout();
 		
 		//Appler la fonction inscription
 		E.Inscription();

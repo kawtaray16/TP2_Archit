@@ -1,9 +1,12 @@
-package TP2;
+package EtudiantRep;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+
+import DBC.DBConnection;
+import UniversityRep.Universite;
 
 public class EtudiantRepository implements Etudiant{
 
@@ -121,6 +124,36 @@ public class EtudiantRepository implements Etudiant{
 	@Override
 	public int Bonus_livre(int n) {
 		return n;
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void viewInscription() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void bonus() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void ControleurInscription() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Inscription() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Afficher_tout() {
 		// TODO Auto-generated method stub
 		
 	}

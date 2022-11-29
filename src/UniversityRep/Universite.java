@@ -1,6 +1,8 @@
-package TP2;
+package UniversityRep;
 
 import java.sql.SQLException;
+
+import TP2.TypePackage;
 
 public interface Universite {
 	
