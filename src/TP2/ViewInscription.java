@@ -9,7 +9,11 @@ import javax.swing.JTextField;
 public class ViewInscription extends JFrame{
 
 	  // Les zones de Textes
-    JTextField txtMatricule = new JTextField(10);
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	JTextField txtMatricule = new JTextField(10);
     JTextField txtNom = new JTextField(10);
     JTextField txtPrenom = new JTextField(10);
     JTextField txtEmail = new JTextField(10);

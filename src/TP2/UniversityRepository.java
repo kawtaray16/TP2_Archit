@@ -12,11 +12,6 @@ public class UniversityRepository implements Universite{
 	private TypePackage pack;
 	
 	
-	public UniversityRepository(int i_univ, String nom, TypePackage pack) {
-		this.i_univ= i_univ;
-		this.nom = nom;
-		this.pack = pack;	
-	}
 
 	
 	

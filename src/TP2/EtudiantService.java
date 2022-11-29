@@ -29,6 +29,11 @@ public class EtudiantService implements Etudiant{
 		this.nbLivreEmprunte = nbLivreEmprunte;
 	}
 
+public EtudiantService(String string, String string2, String string3,
+			String string4, String string5, String string6, String string7) {
+		// TODO Auto-generated constructor stub
+	}
+
 public ArrayList<Etudiant> GetEtudiantParUniversitye()
 {
     //...
@@ -67,7 +72,7 @@ public boolean Exists(int mat) throws SQLException {
 public boolean inscription(int matricule, String nom, String prenom, String email, String pwd,
 		int nbLivreMensuel_Autorise, int nbLivreEmprunte, int id_universite) throws SQLException {
 	EtudiantRepository StudRep= new EtudiantRepository(id_universite, pwd, pwd, pwd, pwd, id_universite, id_universite, id_universite);
-    UniversityRepository UnivRep= new UniversityRepository(id_universite, pwd, null);
+    UniversityRepository UnivRep= new UniversityRepository();
     Etudiant stud = new EtudiantService(matricule, nom, prenom, email,pwd,id_universite, id_universite, id_universite);
     Universite univ=UnivRep.GetById(id_universite);
     
