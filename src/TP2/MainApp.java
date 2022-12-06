@@ -19,6 +19,7 @@ public class MainApp {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		IJournal message = new AfficherMessageDirectement();
 		message.outPut_Msg("C'est le TP2");
 		
